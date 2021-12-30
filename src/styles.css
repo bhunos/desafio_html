@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+  max-width: 100vw;
+}
+
+h1 {
+ font-family: "Roboto", sans-serif;
+ font-weight: bold;
+ text-align: center;
+ font-size: 5rem;
+ margin-top: 5rem;
+}
+
+figure {
+  margin-top: 5rem;
+}
+
+figure img {
+  position: relative;
+  width: calc(100vw - 20rem);
+  margin: 0 10rem;
+  height: 50rem;
+  border-radius: 5rem;
+}
+
+figure figcaption{
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  float: right;
+  margin-right: 10rem;
+  margin-top: 1.5rem;
+}
+
+.revenue, .preparation, .information {
+  margin-top: 5rem;
+}
+
+.revenue h2, .preparation h2, .information h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.2rem;
+  margin-left: 0 auto;
+  text-align: center;
+  font-weight:bold;
+}
+
+.revenue ul, .preparation ol {
+  font-family: "Inter",sans-serif ;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-top: 5.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.revenue ul li, .preparation ol li {
+  margin-top: 2rem;
+}
+
+.information p {
+  font-family:"Inter", sans-serif;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer {
+  margin-top:5rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer span {
+  color: red
+}
+
+
+@media(min-width:768px) {
+ html {
+   font-size: 94%;
+ }
+}
